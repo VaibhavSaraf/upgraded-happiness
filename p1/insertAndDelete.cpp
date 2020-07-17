@@ -35,7 +35,7 @@ int main(int argc, char** argv)
     exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &messaggeError); 
 
     if (exit != SQLITE_OK) { 
-        std::cerr << "Error Insert" << std::endl; 
+        cerr << "Error Insert" << std::endl; 
         sqlite3_free(messaggeError); 
     } 
     else

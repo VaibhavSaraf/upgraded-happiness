@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>
+        SQLite connectivity
+    </title>
+</head>
+
+<body>
+    <form method='POST'>
+        <button type="submit">Show</button>
+    </form>
+
+    {% if error %}
+    <div style="color:red">{{error}}</div>
+    {% endif %}
+
+    <table style="width: auto;">
+        <tr>
+            <th>Id</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        {% for result in results %}
+        <tr>
+            <td>{{result.ID}}</td>
+            <td>{{result.FIRSTNAME}}</td>
+            <td>{{result.LASTNAME}}</td>
+        </tr>
+
+        {% endfor %}
+    </table>
+
+</body>
+
+</html>

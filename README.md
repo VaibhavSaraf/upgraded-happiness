@@ -1,6 +1,6 @@
 # upgraded-happiness
-handeling sqlite database using cpp.
-# Connectivity of SQLite3 with C++ and NodeJS
+
+## Connectivity of SQLite3 with C++ and NodeJS
 
 ### Problem Statement
 * Write a C++ code to insert & sort data in an Sqlite database (one table with columns: id, firstname, lastname). 

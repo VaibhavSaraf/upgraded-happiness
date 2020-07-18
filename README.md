@@ -8,7 +8,7 @@
   The Javascript/Html program should check if the C++ program is running. If the C++ program isn't running, then the first program should throw en error message
 
 ##### C++ program
-------------
+
 * C++ UI should be console based.
 * UI prompt: 
     - 1st prompt: Insert or Sort. 
@@ -18,7 +18,7 @@
     - 3rd prompt: Success message (and update table data)
 
 ##### Javascript/Html program
-------------
+
 * Open the sqlite table in tabular format
 ------------
 ### Features!

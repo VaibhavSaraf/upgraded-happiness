@@ -44,6 +44,7 @@
 ### Installation
 
 ```sh
+$ git clone https://github.com/VaibhavSaraf/upgraded-happiness.git
 $ cd upgraded-happiness
 $ sudo apt-get install sqlite3 libsqlite3-dev
 $ sudo apt-get install nodejs

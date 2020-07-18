@@ -27,7 +27,7 @@
   - Insert data
   - delete data
   - sort data
-  - show data on localhost
+  - show data on web browser (localhost)
   
 ------------
 

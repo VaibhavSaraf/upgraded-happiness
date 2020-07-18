@@ -1,15 +1,22 @@
 #include <iostream>
 #include <string>
 #include <sqlite3.h>
+#include <fstream>
 using namespace std;
 
 class Database
 {
 public:
     sqlite3 *DB;
+    fstream file;
     Database()
     {
         create_db();
+        file.open("check.txt",ios::out);
+        if(!file)
+            cout<<"error"<<endl;
+        else
+            cout<<"created"<<endl;
     }
     int create_db()
     {
@@ -168,6 +175,7 @@ int main()
             break;
         case 5:
             flag = false;
+            remove("check.txt");
             break;
         default:
             cout << "please select proper choise! \n";
